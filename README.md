@@ -1,16 +1,15 @@
-# _Assignment Name_
+# _C# Tamagotchi_
 
-#### _Brief desc of Project, 02.6.2020_
-<!-- ##### _Version 1.1 Updated 01.11.2020_ -->
+#### _Brief desc of Project, 03.11.2020_
 
-#### By _**Tiffany Siu**_
+#### By _**Tiffany Siu and Jack Dunning**_
 
 <!-- [![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive) -->
 <!-- [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) -->
-<!-- [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) -->
-<!-- ![LastCommit](https://img.shields.io/github/last-commit/tsiu88/wordcounter-csharp)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+![LastCommit](https://img.shields.io/github/last-commit/tsiu88/wordcounter-csharp)
 ![Languages](https://img.shields.io/github/languages/top/tsiu88/wordcounter-csharp)
-[![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://lbesson.mit-license.org/) -->
+[![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://lbesson.mit-license.org/)
 
 ---
 ## Table of Contents
@@ -35,57 +34,27 @@ _README under construction_
 ## Setup/Installation Requirements
 
 ### Requirements to Run
-<!-- #### C#
 * _.NET Core_
 * _ASP.NET Core MVC_
 * _Command Prompt_
-* _Web Browser_ -->
-
-<!-- #### Javascript
 * _Web Browser_
-* _Webpack_
-* _Node.js_
-* _NPM_
-* _API KEY_ -->
 
 ### Instructions
 
-<!-- *This page may be viewed by:*
+*This page may be viewed by:*
 
 1. Download and install .NET Core from the [official website](https://dotnet.microsoft.com/download/dotnet-core/)
-2. Clone the [repository](https://github.com/TSiu88/csharp-bakery.git) from my [GitHub page](https://github.com/TSiu88)
+2. Clone the [repository](https://github.com/TSiu88/Csharp-Tamagotchi.git) from my [GitHub page](https://github.com/TSiu88)
 3. Use a command line interface to move to the repository's directory with `cd project-directory`
 4. Run `dotnet restore` and `dotnet build` in command line interface of the repository's directory
 5. Run `dotnet run` to start up the program in the command line interface
-6. Type the URL listed under "Now listening on:" into a web browser  -->
-
-<!-- 1. Download and install Node.js from the [official website](https://nodejs.org/en/download/)
-2. Clone the [repository](https://github.com/TSiu88/beep-boop.git) from my [GitHub page](https://github.com/TSiu88)
-3. Use a command line/Bash to move to the project directory with `cd project-directory`
-4. Run `npm install` to get all dependencies. 
-5. Run `npm run start` to start up the program -->
-
-<!-- _This page may be viewed by cloning the [repository](https://github.com/TSiu88/beep-boop.git) from my [GitHub page](https://github.com/TSiu88) and opening the **index.html** file in any web browser._ -->
-
-<!-- _Other things need to run like servers, databases, code, how to install and use program_ -->
+6. Type the URL listed under "Now listening on:" into a web browser 
 
 ## Other Technologies Used
-<!-- #### C#
 * _C#_
 * _MSTest_
 * _Razor_
-* _Markdown_ -->
-
-<!-- #### Javascript
-* _HTML_
-* _CSS_
-* _Javascript_
-* _JQuery 3.4.1_
-* _Bootstrap 4.4.1_
-* _ESLint_
-* _Babel_
-* _Jest_
-* _Markdown_ -->
+* _Markdown_
 
 ## Notable Features
 <!-- _features that make project stand out_ -->
@@ -115,27 +84,6 @@ _README under construction_
   * _Example Output: ealsquay_
 * _Etc._ -->
 
-<!-- <details>
-  <summary>Click to expand to view specifications</summary>
-
-| Specification | Input | Output |
-| :-------------     | :------------- | :------------- |
-| **The program displays welcome message and menu with prices** | Application start | Welcome message and menu displayed |
-| **The program displays special deals in readable format** | Application start | Special deals displayed ("Buy 2, get 1 free" "3 for $5") |
-| **The program takes input of user that is not an integer, then assume 0 ordered** | Bread="aaa", Pastry="" | Bread=0, Pastry=0 |
-| **The program takes number of loaves of bread and pastries and displays totals** | Bread=4, Pastry=4 | Bread=$20, Pastry=$8, Total=$28 |
-| **If input qualifies for special deals, costs calculated using discounted price** | Bread=3, Pastry=3 | Bread=$10, Pastry=$5, Total=$15 |
-
-</details> -->
-
-## User Stories
-
-<!-- * As a scheduler, I want to be able to organize nurses vacation schedules without much paperwork so that I can be more efficient.
-* As a scheduler, I want to see a list of requests with the overlapping dates and the nurses that sent in the requests organized by priority so I can see which staff member should have priority in getting the request approved. -->
-
-<!-- * Give stories for people who will use this project and what they'd want it to do.  Can include customers/end users, programmers that maintain code, etc. -->
-
-
 ## Screenshots
 
 <!-- _Here is a snippet of what the input looks like:_
@@ -162,10 +110,10 @@ _There are currently no known bugs in this program_
 
 ## Support and contact details
 
-_If there are any question or concerns please contact me at my [email](mailto:tsiu88@gmail.com). Thank you._
+_If there are any question or concerns please contact us at our emails: [Tiffany Siu](mailto:tsiu88@gmail.com) or [Jack Dunning](mailto:JackStunning9001@gmail.com). Thank you._
 
 ### License
 
 *This software is licensed under the MIT license*
 
-Copyright (c) 2020 **_Tiffany Siu_**
+Copyright (c) 2020 **_Tiffany Siu, Jack Dunning_**
