@@ -9,7 +9,7 @@
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 ![LastCommit](https://img.shields.io/github/last-commit/tsiu88/wordcounter-csharp)
 ![Languages](https://img.shields.io/github/languages/top/tsiu88/wordcounter-csharp)
-[![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://lbesson.mit-license.org/)
+[![MIT license](https://img.shields.io/badge/License-MIT-orange.svg)](https://lbesson.mit-license.org/)
 
 ---
 ## Table of Contents
@@ -61,28 +61,30 @@ _README under construction_
 
 ## Specifications
 
-<!-- * _List of features the program should do, from simplest to more complex, handling all possible cases.  Can do as text or put in table, with example input and output_
-  * _Example Input: expected input_
-  * _Example Output: expected output_
-* _Example: The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels._
-  * _Example Input: 3_
-  * _Example Output: 3_
-* _Example: The program adds "way" to single-letter words beginning with a vowel._
-  * _Example Input: i_
-  * _Example Output: iway_
-* _The program adds "way" to multi-letter words beginning with a vowel._
-  * _Example Input: open_
-  * _Example Output: openway_
-* _The program takes the single consonant from the beginning of the word and adds to the end with "ay"_
-  * _Example Input: latin_
-  * _Example Output: atinlay_
-* _The program takes all consecutive consonants from the beginning of the word and adds them to the end with "ay"_
-  * _Example Input: translator_
-  * _Example Output: anslatortray_
-* _The program takes beginning consonants and if it contains "q", also take the "u" after it and add them to the end with "ay"_
-  * _Example Input: squeal_
-  * _Example Output: ealsquay_
-* _Etc._ -->
+* _The program has a homepage that introduces Tamagotchi and has a link to create a new Tamagotchi to play_
+  * _Example Input: Program starts_
+  * _Example Output: Home page displayed with route to fill in form_
+* _The program creates a Game object with properties of food, happiness, and rest for Tamagotchi from user input of a name._
+  * _Example Input: User inputs name_
+  * _Example Output: Game object with properties of food, happiness, and rest created_
+* _The program decreases levels of all properties when user ends turn and causes time to pass._
+  * _Example Input: User presses "End Turn"_
+  * _Example Output: Food, happiness, and rest levels decrease_
+* _The program shows buttons for a Game that allows user to interact with the Tamagotchi with feed, play, or rest._
+  * _Example Input: Game running_
+  * _Example Output: Buttons visible and can interact with them_
+* _User pressing buttons for a Game will increase that stat._
+  * _Example Input: User presses "Feed"_
+  * _Example Output: Food level for Game increases_
+* _The program only allows one action per Game per Turn._
+  * _Example Input: User pressed "Play"_
+  * _Example Output: User unable to interact with any more buttons and must End Turn_
+* _The program displays a "Game Over" view when the Game has died_
+  * _Example Input: Two out of the three: food, happiness, or rest levels, drops to 0_
+  * _Example Output: Display "Game Over"_
+* _Can click button and add more Tamagotchi games to play at the same time._
+  * _Example Input: User clicks link to add more Tamagotchis_
+  * _Example Output: User inputs another name and creates a new Tamagotchi_
 
 ## Screenshots
 
