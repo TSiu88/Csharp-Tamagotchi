@@ -28,6 +28,14 @@
 ---
 ## Description
 
+#### 3/11 Work from Home Summary
+- Places You've Been
+- Packer Tracker
+  - Some CSS styling to make sure able to get it to display
+- Tamagotchi (C#)
+  - Only finished specs, testing, and basic structure
+- Struggles: Git Mob not always working/visible, Live share sync issues
+
 _README under construction_
 <!-- _Detailed desc w/ purpose/usage, what does, motivation to create, why exists, other info for users/developers to have_ -->
 
