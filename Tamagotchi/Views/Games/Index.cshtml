@@ -2,11 +2,23 @@
   Layout = "_Layout";
 }
 @using Tamagotchi.Models
-<h1>Page Title</h1>
+<h1>Tamagotchi Games</h1>
 @{foreach (Game item in Game.GetAll())
 {
-  <h4>@item.Name</h4>
+  <h3>@item.Name</h3>
+  <h4>Stats:</h4>
+  <ul>
+    <li>Food Level: @item.FoodLevel /10</li>
+    <li>Happiness Level: @item.HappyLevel /10</li>
+    <li>Rest Level: @item.RestedLevel /10</li>
+  </ul>
+  <p>Actions Left: </p>
+  <button type="button">Feed</button>
+  <button type="button">Play</button>
+  <button type="button">Sleep</button>
 }}
+<button type="submit">End Turn</button>
 <div class="footer">
   <a href="/">Return To Home</a>
+  <a href="/games/new">Make a Tamagotchi</a>
 </div>

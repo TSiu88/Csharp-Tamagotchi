@@ -83,5 +83,45 @@ namespace Tamagotchi.Tests
       Assert.AreEqual(resultHappy, 11);
       Assert.AreEqual(resultRested, 11);
     }
+
+    [TestMethod]
+    public void DecreaseFoodLevel_DecrementsFoodLevelByOne_Nine()
+    {
+      Game newGame = new Game("Name");
+      newGame.DecreaseFoodLevel();
+      int result = newGame.FoodLevel;
+      Assert.AreEqual(result, 9);
+    }
+
+    [TestMethod]
+    public void DecreaseHappyLevel_DecrementsHappyLevelByOne_Nine()
+    {
+      Game newGame = new Game("Name");
+      newGame.DecreaseHappyLevel();
+      int result = newGame.HappyLevel;
+      Assert.AreEqual(result, 9);
+    }
+
+    [TestMethod]
+    public void DecreaseRestedLevel_DecrementsRestedLevelByOne_Nine()
+    {
+      Game newGame = new Game("Name");
+      newGame.DecreaseRestedLevel();
+      int result = newGame.RestedLevel;
+      Assert.AreEqual(result, 9);
+    }
+
+    [TestMethod]
+    public void DecreaseAllLevels_DecrementsAllLevelsByOne_Nine()
+    {
+      Game newGame = new Game("Name");
+      newGame.DecreaseAllLevels();
+      int resultFood = newGame.FoodLevel;
+      int resultHappy = newGame.HappyLevel;
+      int resultRested = newGame.RestedLevel;
+      Assert.AreEqual(resultFood, 9);
+      Assert.AreEqual(resultHappy, 9);
+      Assert.AreEqual(resultRested, 9);
+    }
   }
 }

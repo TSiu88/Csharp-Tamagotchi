@@ -58,5 +58,27 @@ namespace Tamagotchi.Models
       IncreaseHappyLevel();
       IncreaseRestedLevel();
     }
+
+    public void DecreaseFoodLevel()
+    {
+      FoodLevel -= 1;
+    }
+
+    public void DecreaseHappyLevel()
+    {
+      HappyLevel -= 1;
+    }
+
+    public void DecreaseRestedLevel()
+    {
+      RestedLevel -= 1;
+    }
+
+    public void DecreaseAllLevels()
+    {
+      DecreaseFoodLevel();
+      DecreaseHappyLevel();
+      DecreaseRestedLevel();
+    }
   }
 }
